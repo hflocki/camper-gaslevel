@@ -1,3 +1,6 @@
+Wird nur noch hier gepflegt als Kombisensor https://github.com/hflocki/camper-tanklevel
+
+
 # Camper Gaslevel – ESP32 BLE Gas-Levelsensor
 
 ESP32-Gateway für Bluetooth-Gaslevelsensoren. Standardmäßig für Rotarex DIMES / SRG WAVE, andere BLE-Sensoren lassen sich über einen Definitionsblock in `config.h` anbinden. Der ESP liest die Werte direkt per Bluetooth LE, rechnet Füllstopp und Inhalt um, schickt alles per MQTT an Home Assistant (Auto-Discovery) und bringt eine eigene Web-Oberfläche mit.
